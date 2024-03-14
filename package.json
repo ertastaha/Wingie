@@ -1,0 +1,18 @@
+{
+  "name": "wingie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'No start script defined'",
+    "ticket-chrome": "npx playwright test ticketSearch.spec.ts --project=chromium --headed"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.27"
+  }
+}
